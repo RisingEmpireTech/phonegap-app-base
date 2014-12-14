@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget xmlns = "http://www.w3.org/ns/widgets" xmlns:gap = "http://phonegap.com/ns/1.0" xmlns:android = "http://schemas.android.com/apk/res/android" id = "com.domain.appname" versionCode = "10" version = "1.0.0" >
+
+    <name>Name of App</name>
+    <description>
+        Description of App
+    </description>
+    <author email="user@domain.com" href="http://website.com">
+        Author Name
+    </author>
+
+    <gap:platform name="android" />
+
+    <preference name="orientation" value="landscape" />
+
+    <icon src="icon.png" gap:platform="android" gap:qualifier="ldpi" />
+    <icon src="icon.png" gap:platform="android" gap:qualifier="mdpi" />
+    <icon src="icon.png" gap:platform="android" gap:qualifier="hdpi" />
+    <icon src="icon.png" gap:platform="android" gap:qualifier="xhdpi" />
+    <icon src="icon.png" gap:platform="android" gap:qualifier="xxhdpi" />
+    <icon src="icon.png" gap:platform="android" gap:qualifier="fr-xxhdpi" />
+
+    <access origin="*" />
+</widget>

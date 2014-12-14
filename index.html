@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+        <!-- Styles -->
+        <!-- Bootstrap -->
+        <link rel="stylesheet" type="text/css" href="css/libs/bootstrap.css" />
+
+        <!-- Optional Date and Time Pickers -->
+        <link rel="stylesheet" type="text/css" href="css/libs/picker-default.css" />
+        <link rel="stylesheet" type="text/css" href="css/libs/picker-default.date.css" />
+        <link rel="stylesheet" type="text/css" href="css/libs/picker-default.time.css" />
+
+        <!-- A place for your styles -->
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+    </head>
+    <body>
+        <div class="container-fluid">
+
+            <!-- Optional Navigational Buttons-->
+            <!--<div id="menuBtn"><img src="images/menu-btn.png"></div>-->
+            <!--<div id="backBtn"><img src="images/back-btn.png"></div>-->
+
+            <div id="content" class="row">
+                <!-- Start Page Specific -->
+                <h1>Loading...</h1>
+                <!-- End Page Specific -->
+            </div>
+        </div>
+
+        <!-- Scripts -->
+        <!-- Adobe Phonegap Build puts this one in the final project -->
+        <script type="text/javascript" src="phonegap.js"></script>
+
+        <!-- Jquery & Bootstrap -->
+        <script type="text/javascript" src="js/libs/jquery.min.js"></script>
+        <script type="text/javascript" src="js/libs/bootstrap.min.js"></script>
+
+        <!-- Optional Date and Time Pickers -->
+        <script type="text/javascript" src="js/libs/BBIT/time.js"></script>
+        <script type="text/javascript" src="js/libs/picker.js"></script>
+        <script type="text/javascript" src="js/libs/picker.date.js"></script>
+        <script type="text/javascript" src="js/libs/picker.time.js"></script>
+
+        <!-- App Related Javascript -->
+        <script type="text/javascript" src="js/app/App.js"></script>
+        <script type="text/javascript" src="js/app/Dev.js"></script>
+        <script type="text/javascript" src="js/app/Pages.js"></script>
+        <script type="text/javascript" src="js/app/PageSpec.js"></script>
+
+
+        <!-- Start App Code -->
+        <script type="text/javascript">
+            $(function(){
+                App.initialize();
+            });
+        </script>
+    </body>
+</html>
